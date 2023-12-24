@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My Account">
+    <test name="Valid user log in and log out">
+        <classes>
+            <class name="swag.lab.test.tests.LogInLogOutTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Log in with empty username field test">
+        <classes>
+            <class name="swag.lab.test.tests.LogInEmptyUsernameField"/>
+        </classes>
+    </test>
+
+    <test name="Valid PLP sorting test">
+        <classes>
+            <class name="swag.lab.test.tests.LowToHighTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Valid Checkout">
+        <classes>
+            <class name="swag.lab.test.tests.ValidCheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
